@@ -1,8 +1,8 @@
 常用软件集合：http://ccb.jhu.edu/software.shtml
-一.
 HISAT：比对
 StringTie：拼接
 Ballgown：寻找差异基因
+一。
 1.HISAT（寻找 novel splice sites, transcription initiation sites and transcription termination sites）
 已有比对软件和算法：
 （1）Bowtie and the Burrows–Wheeler aligner(BWA)--特殊的索引方案Ferragina–Manzini (FM) index2
@@ -13,6 +13,12 @@ a.BWT（T）是对参考基因组或其他内容重新轮转排序的函数，�
 b.checkpoint data
 c.SA数组保存了BWT矩阵中$符号前面的后缀在参考基因组中出现的真实位置。              
 （2）HISAT--使用BWT/FMindex算法，同时有 a global,whole-genome index and tens of thousands of small local indexes
+2.过程
+
+
+
+
+二。
 2.StringTie
 使用StringTie’s network flow algorithm，借助基因组指导软件，从头组装；
 （1）将read比对到基因组上，利用splice grape。
